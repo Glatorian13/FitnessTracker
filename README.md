@@ -16,7 +16,8 @@
   # Usage
   In order to use this app, Install, all dependencies, set-up database, then run node server.js. Use application on Heroku deployment or localhost:3000
   # Links
-  Deployment links:
+  Github Page: https://github.com/Glatorian13/FitnessTracker 
+  Live Heroku Demo: https://fit-track-a.herokuapp.com/ 
   
   # License
   This project is licensed under the MIT license. 
