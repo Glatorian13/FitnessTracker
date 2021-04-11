@@ -1,7 +1,7 @@
 //Deps
 const router = require('express').Router();
 const db = require('../models/');
-const lastRange = 5
+const lastRange = 7
 
 //routing and api's
 
@@ -42,7 +42,7 @@ router.put('/api/workouts/:id', (req, res) => {
     });
 });
 
-//GET last 5 workouts (configurable with lastRange variable)
+//GET last 7 workouts (configurable with lastRange variable)
 router.get('/api/workouts/range', (req, res) => {
   db.Workout.find({})
   .sort({ _id: -1 })
