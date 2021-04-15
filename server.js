@@ -17,7 +17,7 @@ app.use(express.static("public"));
 //app.use(compression());
 
 //connect to heroku or local
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
+mongoose.connect(process.env.MONGODB_URL || "mongodb://localhost/workout", {
   useNewUrlParser: true,
   useFindAndModify: false,
   useUnifiedTopology: true,
